@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Welcome Akshaya!</title>
+  <link rel="stylesheet" href="styles1.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="center-box">
+    <h1>🎈 Countdown to Achumma's Special Day 🎈</h1>
+    <div id="countdown-timer">Loading...</div>
+
+    <!-- 👇 Keep button enabled, JS handles the check -->
+    <button id="start-btn">🎂 Let's Begin the Magic!</button>
+
+    <!-- ✨ Popup modal -->
+    <div id="wait-popup" class="popup hidden">
+      <div class="popup-box">
+        <p>🪄 Whoa there, magic is still brewing!<br>You have to wait  until the countdown is over ✨</p>
+        <button onclick="closePopup()">Okay! 😇</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
