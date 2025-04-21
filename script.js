@@ -1,4 +1,4 @@
-const targetDate = new Date("April 25, 2025 00:00:00").getTime();
+const targetDate = new Date("April 21, 2025 00:00:00").getTime();
 const countdownEl = document.getElementById("countdown-timer");
 const button = document.getElementById("start-btn");
 const popup = document.getElementById("wait-popup");
